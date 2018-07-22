@@ -29,6 +29,7 @@
 在一个`node`执行一个文件时，会给这个文件内生成一个`exports`和`module`对象，
 而`module`又有一个`exports`属性。他们之间的关系如下图，都指向一块`{}`内存区域
 ![内存结构示意图](http://oy0oxkhrp.bkt.clouddn.com/exports)
+
 上[demo](https://github.com/snlg/Module-demo/blob/master/exports/a.js)
 ```javascript
 // a.js
