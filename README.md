@@ -29,7 +29,7 @@
 在一个`node`执行一个文件时，会给这个文件内生成一个`exports`和`module`对象，
 而`module`又有一个`exports`属性。他们之间的关系如下图，都指向一块`{}`内存区域
 ![内存结构示意图](http://oy0oxkhrp.bkt.clouddn.com/exports)
-上[demo](toEdit)
+上[demo](https://github.com/snlg/Module-demo/blob/master/exports/a.js)
 ```javascript
 // a.js
 let a = 100;
@@ -117,7 +117,7 @@ setTimeout(()=>{
   console.log(foo)
 },1000)
 ```
-在引用`500ms`后值会改变, 测试结果如下。[demo](toedit)
+在引用`500ms`后值会改变, 测试结果如下。[demo](https://github.com/snlg/Module-demo/blob/master/Es6Module/import/b.js)
 ![](http://oy0oxkhrp.bkt.clouddn.com/WX20180722-170927@2x.png)
 
 最后由于`Es6Module`设计思想是尽量的静态化,编译时加载。并非执行时加载，所以，`export`不能用在块级作用域内(函数和条件语句)，会报错。
