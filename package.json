@@ -1,0 +1,31 @@
+{
+  "name": "module-demo",
+  "version": "1.0.0",
+  "description": "demo of Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snlg/Module-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snlg/Module-demo/issues"
+  },
+  "scripts": {
+    "build": "babel Es6Module -d lib"
+  },
+  "homepage": "https://github.com/snlg/Module-demo#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  }
+}
